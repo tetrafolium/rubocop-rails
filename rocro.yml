@@ -1,0 +1,36 @@
+inspecode:
+
+  brakeman:
+    thresholds: { num-issues: 999 }
+
+  bundler-audit:
+    thresholds: { num-issues: 999 }
+
+  cpd:
+    thresholds: { num-issues: 999 }
+
+  fossology:
+    thresholds: { num-issues: 999 }
+
+  grep:
+    thresholds: { num-issues: 999 }
+
+  jscpd:
+    thresholds: { num-issues: 999 }
+
+  misspell:
+    auto-fix: true
+    thresholds: { num-issues: 999 }
+
+  rails_best_practices:
+    thresholds: { num-issues: 999 }
+
+  reek:
+    thresholds: { num-issues: 999 }
+
+  rubocop:
+    auto-fix: true
+    thresholds: { num-issues: 999 }
+
+  unused:
+    thresholds: { num-issues: 999 }
